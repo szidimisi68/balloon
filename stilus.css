@@ -1,0 +1,83 @@
+#kep
+{
+    width: 500px;
+}
+
+#container
+{
+    margin:auto;
+    background-color: rgba(70, 150, 250, 50%);
+    width: 80%;
+    color: white;
+    box-shadow: 20 20 10 rgb(70, 150, 250 25%);
+}
+
+nav
+{
+	font-family:serif;
+	text-align:center;
+	width:85%;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 25%);
+    border: 2px solid;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+
+nav ul li a:hover
+{
+    color: rgb(70, 150, 250);
+    transition: 1s;
+}
+
+footer
+{
+    clear:both;
+    background-color: rgba(0, 0, 0, 50%);
+    color: white;
+    text-align: center;
+    border-radius: 0 0 1em 1em;
+}
+
+article img
+{
+	border:2px solid rgba(255,255,255,0.5);
+    float:right;
+    size: 40%;
+    border-radius: 10em;
+
+}
+
+body
+{
+    background-image: url(Images/bg.jpg);
+    background-attachment: fixed;
+    font-family:"monotype Corsiva";
+    font-size: 1.5em;
+}
+
+header
+{
+    border: 2px solid rgba(255, 255, 255, 50%);
+    text-align: center;
+}
+
+
+
+nav li
+{
+    width: 10em;
+    display: inline-block;
+}
+
+nav li a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+article
+{
+    padding:1em;
+}
